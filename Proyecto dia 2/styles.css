@@ -1,20 +1,45 @@
 *{
     background-color: blanchedalmond;   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-header {
 
+.header {
+    color: maroon;
+    font-style: oblique;
+}
+
+#title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+img {
+    display: grid;
+    float: auto;
+    max-width: 900px;
+    padding-left: 400px;
+    margin: 25px;
+}
+
+h3 {
+color: chocolate;
 
 }
-img{
-    width: 500px;
-    align-items: center;
-}
+
 a {
-font-weight: bold;
+font-style: italic;
+font-weight: 500;
 }
 
-intro {
+div p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
 
-
+div [p = "Santa Marta"]{
+font-weight: bold;
+color: brown;
 }
