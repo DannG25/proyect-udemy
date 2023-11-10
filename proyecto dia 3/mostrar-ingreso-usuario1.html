@@ -8,9 +8,11 @@
         <h1 id="titulo"></h1>
         <script>
             Function mostrarTexto(){
-             let contenidoTexto = document.getElementById("inputTexto");
-             titulo.textContent = inputTexto.value;
-            }
+            let contenidoTexto = document.getElementById("inputTexto");
+            let contenidoTitulo = document.getElementById("titulo");
+            let mensaje = contenidoTexto.value;
+            
+            contenidoTitulo.textContent = mensaje ;
         </script>
     </body>
 </html>
