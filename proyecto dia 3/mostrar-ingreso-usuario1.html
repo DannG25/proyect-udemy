@@ -7,12 +7,10 @@
         <button onclick="mostrarTexto()">Click aqui</button>
         <h1 id="titulo"></h1>
         <script>
-            Function mostrarTexto(){
-            let contenidoTexto = document.getElementById("inputTexto");
-            let contenidoTitulo = document.getElementById("titulo");
-            let mensaje = contenidoTexto.value;
-            
-            contenidoTitulo.textContent = mensaje ;
+            function mostrarTexto() {
+                var texto = document.getElementById("inputTexto").value;
+                document.getElementById("titulo").textContent = texto;
+            }
         </script>
     </body>
 </html>
